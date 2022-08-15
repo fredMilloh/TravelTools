@@ -12,15 +12,6 @@
 
 
 ## Introduction
-Outils pour un voyage à New York. 
- - conversion Euro <-> Dollar, 
- - traduction entre les langues de l'UE et l'anglais, 
- - météo locale pour New York et la destination saisie.
-
-En cas d'erreur de saisie, d'erreur de connexion ou de réception de données erronées, une alerte informe l'utilisateur.
-
-
-English version :
 
 Tools for a trip to New York. 
  - Euro <-> Dollar conversion, 
@@ -30,26 +21,6 @@ Tools for a trip to New York.
 In the event of an input error, a connection error or incorrect data being received, an alert informs the user.
 
 ## Features
-
-Premier onglet :
-- L'utilisateur saisit un montant et obtient sa conversion en appuyant sur le bouton "convertir".
-- Un montant en Euro peut être converti en Dollar, et vice versa.
-- Le taux de conversion est actualisé une fois par jour, et enregistré dans l'appareil de l'utilisateur.
-- Un bouton permet d'inverser les devises.
- 
-
-Deuxième onglet :
-- Par défaut, la traduction se fait du français vers l'anglais, ou vice versa.
-- Chaque bouton de langue propose une liste des langues de l'Union européenne.
-- L'utilisateur sélectionne la langue d'origine et la langue de traduction.
-- Un bouton permet d'obtenir la traduction du texte saisi dans la langue sélectionnée.
-
-Troisième onglet :
-- Dès l'ouverture de la page, la météo de New York s'affiche.
-- L'utilisateur peut comparer avec la météo de la destination de son choix.
-
-
-English version :
 
 Fist tab :
 - The user enters an amount and gets the conversion by pressing the "convert" button.
@@ -70,9 +41,8 @@ Third tab :
 
 ## Screenshots
 
-<img width="200" alt="EcranConvert" src="https://user-images.githubusercontent.com/47221695/151048925-42ef2308-cd96-45d8-8da0-9327c67bfeec.png"><img width="200" alt="EcranConvertErreur" src="https://user-images.githubusercontent.com/47221695/151048943-1675fd7b-a880-45e5-8c3e-d47afee5d032.png">
-<img width="200" alt="Translate2" src="https://user-images.githubusercontent.com/47221695/151049256-2c1f95ed-6f6c-4a84-949c-e481f34320a3.png"><img width="200" alt="Translate3" src="https://user-images.githubusercontent.com/47221695/151049301-6f1efa36-f6b5-470b-b237-30f264c987d9.png"><img width="205" alt="Translate5" src="https://user-images.githubusercontent.com/47221695/151050521-1591dc6b-af46-4837-a49e-cb9c5fcff11e.png"><img width="200" alt="Translate6" src="https://user-images.githubusercontent.com/47221695/151050806-bf4d28a4-14ba-4e38-bd7a-e78c20420584.png">
-<img width="205" alt="Capture d’écran 2022-01-25 à 21 05 35" src="https://user-images.githubusercontent.com/47221695/151051257-1761fbd8-e79f-47e6-91f7-5aef839f11e6.png"><img width="200" alt="EcranMeteoErreur404" src="https://user-images.githubusercontent.com/47221695/151051288-9f349259-3a8b-46dd-854e-8f7ad4e61bc1.png">
+https://user-images.githubusercontent.com/47221695/184694454-bb8d3c03-94f7-46e5-9744-1d3d4091f229.mp4
+
 
 ## IDE
 
@@ -98,15 +68,15 @@ Third tab :
 
 ## How To Use
 
-Depuis votre terminal, clonez ce dépôt avec la commande git suivante :
+ - Fork the project
+ 
+From your terminal :
 
-From your terminal, clone this repository with the following git command :
+ - Create a branch and work on it
+ - Publish the branch on its fork
+ - Create the pull-request
 
-```
-$ git clone https://github.com/fredMilloh/TravelTools
-```
-
-Cette application utilise les API suivantes :
+**API**
 
 This application uses the following APIs :
 
@@ -116,23 +86,16 @@ Translate : https://cloud.google.com/translate/docs/
 
 Weather : https://openweathermap.org/current
 
-Projet sans clés API. Ajoutez vos clés API.
+
 
 Project without API keys. Add your API keys.
 
-Supprimez le fichier ConfigKeys et ajoutez un nouveau "fichier de paramètres de configuration" au projet.
 
 Delete the ConfigKeys file and add a new "configuration settings file" to the project.
 
-Nommez-le *ConfigKeys*.
-
 Name it *ConfigKeys*.
 
-Définir les configurations (Debug, Release) dans le projet, avec ce fichier de configuration.
-
 Set the configurations (Debug, Release) in the project, with this configuration file.
-
-Ajoutez vos clés API aux clés suivantes :
 
 Add your API values to the following keys :
 
@@ -149,7 +112,5 @@ WEATHER_API_KEY =
 
 ----------------------------------------------------------------------------------------
 
-création d'une application, dans le cadre d'un projet d'étude.
-
-application coded from scratch, as part of a study project.
+This application was realized from a specification, within the framework of a study project.
 
